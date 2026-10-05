@@ -5,7 +5,7 @@ The app generates randomized contextual ear training exercises within a configur
 
 ## What the code does
 
-The challenge is how to map a simple collection of 84 mp3 files, each contiaing a different piano note, to 1,008 key/syllable/octave combinations required to create randomized ear training exercises in any key. The same recorded pitch can represent different solfege syllables in different keys, so the engine tracks both the absolute pitch and its role within the established tonal context. For example, b4 is "mi" in the key of G major, but "ti" in C major.
+The challenge is how to map a simple collection of 84 mp3 files, each contianing a different piano note, to 1,008 key/syllable/octave combinations required to create randomized ear training exercises in any key. The same recorded pitch can represent different solfege syllables in different keys, so the engine tracks both the absolute pitch and its role within the established tonal context. For example, b4 is "mi" in the key of G major, but "ti" in C major.
 
 To see this in the code, start with setup() in AudioBrain.swift to see how the recording mappings are constructed, then follow randomize() to see how those mappings produce exercises. 
 
