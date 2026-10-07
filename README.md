@@ -1,7 +1,7 @@
 # iOS Contextual Ear Trainer
 
 ## What the app does
-The app generates randomized contextual ear training exercises within a configurable key center. It establishes the key with a chord progression, plays test notes, then plays solfege answers after a configurable delay. Further discussion of earn training and how the app works from a user point of view follows here after a brief discussion of the code.
+The app generates randomized contextual ear training exercises within a configurable key center. It establishes the key with a chord progression, plays test notes, then plays solfege answers after a configurable delay. Further discussion of ear training and how the app works from a user point of view follows here after a brief discussion of the code.
 
 ## What the code does
 
